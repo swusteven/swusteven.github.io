@@ -2397,27 +2397,16 @@ ul.actions.fit.stacked {
 
 /* Icons */
 
-ul.icons {
-  cursor: default;
-  list-style: none;
-  padding-left: 0;
-}
-
 ul.icons li {
   display: inline-block;
-  padding: 0 1em 0 0;
-}
-
-ul.icons li:last-child {
-  padding-right: 0 !important;
 }
 
 ul.icons.major {
-  padding: 1em 0;
+  padding: 0 0;
 }
 
 ul.icons.major li {
-  padding-right: 3.5em;
+  padding-right: 0em;
 }
 
 @media screen and (max-width: 736px) {
@@ -4126,8 +4115,29 @@ body.is-mobile.landing #footer {
   border: solid 2px white;
 }
 
-.icons.major {
-  font-size: 6em;
+.icons li {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  width: 25%;
+  padding: 0 20px 0 0;
+  flex-wrap: wrap;
+  margin: 25px;
+  /* border: 2px black solid; */
+}
+
+.icons i {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.icons span {
+  color: black;
 }
 
 .contact-form-container {
@@ -4149,4 +4159,16 @@ body.is-mobile.landing #footer {
 
 button {
   background-color: #08c01d;
+}
+
+#one {
+  background-color: white;
+}
+
+#one h2 {
+  color: black;
+  letter-spacing: 0.1em;
+}
+#one p {
+  color: black;
 }
