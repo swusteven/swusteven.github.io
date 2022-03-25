@@ -4156,9 +4156,16 @@ body.is-mobile.landing #footer {
   margin: auto;
   flex-wrap: wrap;
 }
+.contact-area-social a {
+  border: none;
+}
 
 button {
-  background-color: #08c01d;
+  background-color: #085bc0;
+}
+button:hover {
+  background-color: greenyellow;
+  transform: scale(1.1);
 }
 
 #one {
