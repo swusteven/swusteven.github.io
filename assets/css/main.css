@@ -4160,6 +4160,12 @@ body.is-mobile.landing #footer {
   padding: 0;
 }
 
+.sql-icon {
+  height: 82px;
+  justify-content: center;
+  padding: 0;
+}
+
 .icons span {
   color: black;
 }
